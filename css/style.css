@@ -38,6 +38,14 @@ a:hover {
 	background-color: #222;
 }
 
+.navbar-brand {
+	padding: 3px;
+}
+
+#navbar-logo {
+	height: 100%;
+}
+
 .barbell_img {
 	width: 50%;
 }
