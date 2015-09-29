@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html ng-app="fitApp">
 <head>
-	<title>BBR</title>
+	<title>JAR</title>
 
 	<!-- CSS -->
-	<link href="lib/flatui/dist/css/vendor/bootstrap.min.css" rel="stylesheet"/>
-	<link href="lib/flatui/dist/css/flat-ui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link href="css/style.css" rel="stylesheet"/>
 </head>
 
 <body>
 <div id="body-wrapper">
-	<nav class="navbar navbar-default" role="navigation">
-	  	<div class="navbar-header">
-		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-		      <span class="sr-only">Toggle navigation</span>
-		    </button>
-	    	<a class="navbar-brand" href="#/">Barbell Rack</a>
-	  	</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse-01">
-	    	<ul class="nav navbar-nav ">
-				<li class="dropdown">
-	                <a href="" class="dropdown-toggle" data-toggle="dropdown">Programs<b class="caret"></b></a>
-	                <span class="dropdown-arrow"></span>
-	                <ul class="dropdown-menu">
-	             	   <li><a href="#/programs/beginner">Beginner</a></li>
-	                   <li><a href="#/programs/intermediate">Intermediate</a></li>
-	                   <li><a href="#/programs/advanced">Advanced</a></li>
-	                   <li><a href="#/programs/generator">Workout Generator</a></li>
-	                </ul>
-	            </li>
-	            <li><a href="#/progress">Progress</a></li>
-	            <!-- <li><a href="">Store (coming soon)</a></li> -->
-		      	<!-- <li ><a href="#fakelink">Recipes (coming soon)</a></li> -->
-	    	</ul>
+	<nav class="navbar navbar-default">
+	  	<div class="container-fluid">
+	  		<div class="navbar-header">
+	      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+	      		</button>
+	     		<a class="navbar-brand" href="#/">JAR</a>
+	    	</div>
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	     		<ul class="nav navbar-nav">
+	            	<li><a href="#/progress">Progress</a></li>
+		            <!-- <li><a href="">Store (coming soon)</a></li> -->
+			      	<!-- <li ><a href="#fakelink">Recipes (coming soon)</a></li> -->
+			        <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+							<li><a href="#/programs/beginner">Beginner</a></li>
+							<li><a href="#/programs/intermediate">Intermediate</a></li>
+							<li><a href="#/programs/advanced">Advanced</a></li>
+				            <li role="separator" class="divider"></li>
+					        <li><a href="#/programs/generator">Workout Generator</a></li>
+			          	</ul>
+	        		</li>
+	      		</ul>
+	    	</div>
 	  	</div>
 	</nav>
 
@@ -62,8 +66,8 @@
 	</footer>
 </div>
 	<!-- Load JS here -->
-	<script src="lib/flatui/dist/js/vendor/jquery.min.js"></script>
-    <script src="lib/flatui/dist/js/flat-ui.min.js"></script>
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular/angular-route.min.js"></script>
     <script src="app.js"></script>
