@@ -1,0 +1,506 @@
+[
+    {
+        "bodyPart": "legs",
+        "exercise": "front squat"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "goblet squat"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "good mornings"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "curtsy squats"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "leg extension"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "leg curl"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "hip abduction machine"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "hip adduction machine"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "single leg squats using bench"
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "hack squat",
+        "variations": {
+            "stance": [
+                "regular",
+                "reverse"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "split squats",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "back squat",
+        "variations": {
+            "stance": [
+                "narrow-stance",
+                "wide-stance",
+                "neutral-stance",
+                "heels elevated on plate"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "leg press",
+        "variations": {
+            "stance": [
+                "wide-stance",
+                "narrow-stance",
+                "neutral-stance"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "stiff legged deadlift",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "deadlift",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "romanian deadlift",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "sumo deadlift",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "legs",
+        "exercise": "lunges",
+        "variations": {
+            "stance": [
+                "walking",
+                "standing"
+            ],
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "glutes",
+        "exercise": "wide-stance back squat"
+    },
+    {
+        "bodyPart": "glutes",
+        "exercise": "hip abduction machine"
+    },
+    {
+        "bodyPart": "glutes",
+        "exercise": "good mornings"
+    },
+    {
+        "bodyPart": "glutes",
+        "exercise": "stiff legged deadlift",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "glutes",
+        "exercise": "glute kickback",
+        "variations": {
+            "weightType": [
+                "machine",
+                "cable"
+            ]
+        }
+    },
+    {
+        "bodyPart": "calves",
+        "exercise": "donkey calf raise",
+        "variations": {
+            "stance": [
+                "wide-stance",
+                "narrow-stance",
+                "neutral-stance"
+            ],
+            "toes": [
+                "toes angled inward",
+                "toes angled outward",
+                "toes straight ahead"
+            ]
+        }
+    },
+    {
+        "bodyPart": "calves",
+        "exercise": "seated calf raise",
+        "variations": {
+            "stance": [
+                "wide-stance",
+                "narrow-stance",
+                "neutral-stance"
+            ],
+            "toes": [
+                "toes angled inward",
+                "toes angled outward",
+                "toes straight ahead"
+            ]
+        }
+    },
+    {
+        "bodyPart": "calves",
+        "exercise": "calf raise on smith machine using platform",
+        "variations": {
+            "stance": [
+                "wide-stance",
+                "narrow-stance",
+                "neutral-stance"
+            ],
+            "toes": [
+                "toes angled inward",
+                "toes angled outward",
+                "toes straight ahead"
+            ]
+        }
+    },
+    {
+        "bodyPart": "calves",
+        "exercise": "standing calf raise machine",
+        "variations": {
+            "stance": [
+                "wide-stance",
+                "narrow-stance",
+                "neutral-stance"
+            ],
+            "toes": [
+                "toes angled inward",
+                "toes angled outward",
+                "toes straight ahead"
+            ]
+        }
+    },
+    {
+        "bodyPart": "calves",
+        "exercise": "calf raise on leg press",
+        "variations": {
+            "stance": [
+                "wide-stance",
+                "narrow-stance",
+                "neutral-stance"
+            ],
+            "toes": [
+                "toes angled inward",
+                "toes angled outward",
+                "toes straight ahead"
+            ]
+        }
+    },
+    {
+        "bodyPart": "back",
+        "exercise": "pullups",
+        "variations": {
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip",
+                "reverse-grip"
+            ]
+        }
+    },
+    {
+        "bodyPart": "back",
+        "exercise": "lat pulldowns",
+        "variations": {
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip",
+                "reverse-grip"
+            ]
+        }
+    },
+    {
+        "bodyPart": "back",
+        "exercise": "rows",
+        "variations": {
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip",
+                "reverse-grip"
+            ],
+            "weightType": [
+                "barbell",
+                "dumbbell",
+                "cable",
+                "single arm cable",
+                "single arm dumbbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "chest",
+        "exercise": "dips"
+    },
+    {
+        "bodyPart": "chest",
+        "exercise": "svend press"
+    },
+    {
+        "bodyPart": "chest",
+        "exercise": "pushups",
+        "variations": {
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip"
+            ]
+        }
+    },
+    {
+        "bodyPart": "chest",
+        "exercise": "chest flyes",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "cable"
+            ],
+            "benchType": [
+                "incline",
+                "decline",
+                "flat"
+            ]
+        }
+    },
+    {
+        "bodyPart": "chest",
+        "exercise": "press",
+        "variations": {
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip",
+                "reverse-grip"
+            ],
+            "weightType": [
+                "barbell",
+                "dumbbell"
+            ],
+            "benchType": [
+                "incline",
+                "decline",
+                "flat"
+            ]
+        }
+    },
+    {
+        "bodyPart": "biceps",
+        "exercise": "zottoman curls"
+    },
+    {
+        "bodyPart": "biceps",
+        "exercise": "hammer curls"
+    },
+    {
+        "bodyPart": "biceps",
+        "exercise": "preacher curls",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell"
+            ]
+        }
+    },
+    {
+        "bodyPart": "biceps",
+        "exercise": "curls",
+        "variations": {
+            "weightType": [
+                "barbell",
+                "dumbbell",
+                "ez bar",
+                "cable"
+            ],
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip",
+                "reverse-grip"
+            ]
+        }
+    },
+    {
+        "bodyPart": "triceps",
+        "exercise": "dips",
+        "variations": {
+            "type": [
+                "machine",
+                "bench",
+                "regular"
+            ]
+        }
+    },
+    {
+        "bodyPart": "triceps",
+        "exercise": "dips",
+        "variations": {
+            "type": [
+                "machine",
+                "bench",
+                "regular"
+            ]
+        }
+    },
+    {
+        "bodyPart": "triceps",
+        "exercise": "french press",
+        "variations": {
+            "position": [
+                "standing",
+                "seated"
+            ]
+        }
+    },
+    {
+        "bodyPart": "triceps",
+        "exercise": "tricep pushdown",
+        "variations": {
+            "weightType": [
+                "cable straight bar",
+                "cable rope"
+            ]
+        }
+    },
+    {
+        "bodyPart": "triceps",
+        "exercise": "skullcrushers",
+        "variations": {
+            "grip": [
+                "wide-grip",
+                "neutral-grip",
+                "close-grip"
+            ]
+        }
+    },
+    {
+        "bodyPart": "triceps",
+        "exercise": "tricep extension",
+        "variations": {
+            "position": [
+                "standing",
+                "seated"
+            ],
+            "weightType": [
+                "dumbbell",
+                "barbell",
+                "cable straight bar",
+                "cable rope"
+            ]
+        }
+    },
+    {
+        "bodyPart": "shoulders",
+        "exercise": "rear delt flyes",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "cable",
+                "machine"
+            ]
+        }
+    },
+    {
+        "bodyPart": "shoulders",
+        "exercise": "side raises",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "cable"
+            ],
+            "position": [
+                "standing",
+                "seated"
+            ]
+        }
+    },
+    {
+        "bodyPart": "shoulders",
+        "exercise": "press",
+        "variations": {
+            "type": [
+                "military",
+                "dumbbell shoulder",
+                "barbell shoulder"
+            ],
+            "position": [
+                "standing",
+                "seated"
+            ]
+        }
+    },
+    {
+        "bodyPart": "shoulders",
+        "exercise": "front raises",
+        "variations": {
+            "weightType": [
+                "dumbbell",
+                "barbell",
+                "cable",
+                "plate"
+            ],
+            "position": [
+                "standing",
+                "seated"
+            ]
+        }
+    }
+]

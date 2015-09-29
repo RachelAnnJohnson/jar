@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#body-wrapper {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding: 0 0 60px;
+	position: relative;
+}
+
+.barbell_img {
+	width: 50%;
+}
+
+#disclaimer {
+	font-size: 8px;
+	text-align: center;
+}
+
+footer {
+	bottom: 0;
+	/*height: 30px;*/
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.footer_text_block {
+	text-align: center;
+}
+
+.social_img_container {
+	padding: 0 5px 0 5px;
+}

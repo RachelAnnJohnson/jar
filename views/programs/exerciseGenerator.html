@@ -1,0 +1,30 @@
+	<h2>Create a random workout</h2>
+
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="muscleGroupSelection" class="col-sm-3">muscle group:</label>
+			<div class="col-sm-4">
+				<select id="muscleGroupSelection" class="form-control" ng-model="muscleGroupSelection">
+					<option ng-repeat="exercise in exerciseChoices">{{exercise}}</option>
+				</select>
+				{{$scope.exerciseSelection}}
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="exerciseAmountSelection" class="col-sm-3">number of exercises:</label>
+			<div class="col-sm-4">
+				<input type="number" id="exerciseAmountSelection" class="form-control" ng-model="exerciseAmountSelection"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-5 col-sm-2">
+				<button class="btn btn-default btn-block" ng-click="loadExerciseData(muscleGroupSelection, exerciseAmountSelection)">generate</button>
+			</div>
+		</div>
+	</form>
+
+	<h3>{{}}</h3>
+	<div ng-model="exercises">
+		{{exercises}}
+		<!-- <li ng-repeat="workout in exerciseOutput track by $index">{{workout}}</li> -->
+	</div>

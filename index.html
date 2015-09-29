@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="fitApp">
+<head>
+	<title>BBR</title>
+
+	<!-- CSS -->
+	<link href="lib/flatui/dist/css/vendor/bootstrap.min.css" rel="stylesheet"/>
+	<link href="lib/flatui/dist/css/flat-ui.min.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+<div id="body-wrapper">
+	<nav class="navbar navbar-default" role="navigation">
+	  	<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+		      <span class="sr-only">Toggle navigation</span>
+		    </button>
+	    	<a class="navbar-brand" href="#/">Barbell Rack</a>
+	  	</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse-01">
+	    	<ul class="nav navbar-nav ">
+				<li class="dropdown">
+	                <a href="" class="dropdown-toggle" data-toggle="dropdown">Programs<b class="caret"></b></a>
+	                <span class="dropdown-arrow"></span>
+	                <ul class="dropdown-menu">
+	             	   <li><a href="#/programs/beginner">Beginner</a></li>
+	                   <li><a href="#/programs/intermediate">Intermediate</a></li>
+	                   <li><a href="#/programs/advanced">Advanced</a></li>
+	                   <li><a href="#/programs/generator">Workout Generator</a></li>
+	                </ul>
+	            </li>
+	            <li><a href="#/progress">Progress</a></li>
+	            <!-- <li><a href="">Store (coming soon)</a></li> -->
+		      	<!-- <li ><a href="#fakelink">Recipes (coming soon)</a></li> -->
+	    	</ul>
+	  	</div>
+	</nav>
+
+	<div id="content-wrapper" class="container">
+		<div ng-view></div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="footer_text_block col-md-6"> 
+					rachel: 
+					<span class="social_img_container">
+						<a href="https://www.instagram.com/rachelannjohns" target="_blank"><span class="fui-instagram"></span></a>
+						<a href="https://github.com/RachelAnnJohnson" target="_blank"><span class="fui-github"></span></a>
+					</span>
+				</div>
+				<div class="footer_text_block col-md-6"> 
+					jared:
+					<span class="social_img_container">
+						<a href="https://www.instagram.com/thejaredbentley" target="_blank"><span class="fui-instagram"></span></a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+	<!-- Load JS here -->
+	<script src="lib/flatui/dist/js/vendor/jquery.min.js"></script>
+    <script src="lib/flatui/dist/js/flat-ui.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="services/getExercises.js"></script>
+    <script src="services/getSetsReps.js"></script>
+    <script src="js/exerciseGeneratorController.js"></script>
+</body>
+</html>
