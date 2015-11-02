@@ -1,8 +1,11 @@
 'use strict';
 
 var app = angular.module('fitApp', [
-    'ngRoute'
- //    'typeAheadModule',
+    'ngRoute',
+	'appServices',
+	'appFactories',
+	'appControllers',
+	'appFilters'
 ]);
 
 app.config(['$routeProvider', 
@@ -15,23 +18,29 @@ app.config(['$routeProvider',
         }).
         when('/programs/beginner', {
             templateUrl: 'views/programs/beginner.html'
-            // controller: 'LayersCtrl',
         }).
         when('/programs/intermediate', {
             templateUrl: 'views/programs/intermediate.html'
-            // controller: 'LayersCtrl',
         }).
         when('/programs/advanced', {
             templateUrl: 'views/programs/advanced.html'
             // controller: 'LayersCtrl',
         }).      
-        when('/programs/generator', {
-            templateUrl: 'views/programs/exerciseGenerator.html',
-            controller: 'ExerciseGeneratorCtrl'
-        }).
-        when('/progress', {
-            templateUrl: 'views/etc/progress.html'
-        }).  
+        // when('/programs/generator', {
+        //     templateUrl: 'views/programs/exerciseGenerator.html',
+        //     controller: 'ExerciseGeneratorCtrl'
+        // }).      
+//        when('/programs/nutrition', {
+//            templateUrl: 'views/programs/nutrition.html'
+//            controller: 'nutritionCtrl'
+//        }).
+//        when('/contact', {
+//            templateUrl: 'views/etc/contact.html',
+//            controller: 'contactCtrl'
+//        }).  
+//        when('/about', {
+//            templateUrl: 'views/etc/about.html'
+//        }). 
         otherwise({
             redirectTo: '/' 
         });

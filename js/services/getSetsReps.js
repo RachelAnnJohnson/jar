@@ -1,4 +1,4 @@
-app.service("setsRepsService", ["$http", function($http) {
+servicesModule.service("setsRepsService", ["$http", function($http) {
 	return({
 		getSetsReps : getSetsReps
 	});
@@ -6,7 +6,7 @@ app.service("setsRepsService", ["$http", function($http) {
 	function getSetsReps() {
 		var request = $http({
 			method: "get",
-			url: "js/setsReps.json",
+			url: "../json/setsReps.json",
 			params: {
 				action: "get"
 			}

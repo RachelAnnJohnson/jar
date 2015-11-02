@@ -9,6 +9,10 @@ a:hover {
 	text-decoration: none;
 }
 
+textarea {
+	max-width: 100%;
+}
+
 #body-wrapper {
 	box-sizing: border-box;
 	min-height: 100%;
@@ -39,34 +43,47 @@ a:hover {
 }
 
 .navbar-brand {
-	padding: 3px;
+	padding: 3px 3px 3px 15px;
 }
 
 #navbar-logo {
 	height: 100%;
 }
 
+.jumbotron {
+	text-align: center;
+}
+
 .barbell_img {
 	width: 50%;
 }
 
-#disclaimer {
+.media-object {
+	height: 128px;
+	width 128px;
+}
+
+.social_media_icon {
+	width: 28px;
+}
+
+.disclaimer {
 	font-size: 8px;
 	text-align: center;
 }
 
 footer {
+	box-sizing: border-box;
 	bottom: 0;
-	height: 30px;
+	height: 26px;
 	left: 0;
 	position: absolute;
 	width: 100%;
+	padding: 2.5px;
+	background-color: #9d9d9d;
+	text-align: right;
 }
 
-.footer_text_block {
-	text-align: center;
-}
-
-.social_img_container {
-	padding: 0 5px 0 5px;
+#github_img {
+	width: 16px;
 }

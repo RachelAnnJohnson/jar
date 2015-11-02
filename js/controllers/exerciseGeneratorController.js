@@ -1,6 +1,7 @@
-app.controller("ExerciseGeneratorCtrl", ["$scope", "exerciseService", "setsRepsService", 
+controllersModule.controller("ExerciseGeneratorCtrl", ["$scope", "exerciseService", "setsRepsService",
 	function($scope, exerciseService, setsRepsService) {
 		$scope.exerciseChoices = ["legs", "glutes", "calves", "chest", "back", "triceps", "biceps", "shoulders"];
+		$scope.liftStyleChoices = ["heavy", "light", "pyramid", "random"];
 		$scope.exercises;
 		$scope.notUnique = null;
 
@@ -13,7 +14,7 @@ app.controller("ExerciseGeneratorCtrl", ["$scope", "exerciseService", "setsRepsS
 					$scope.responseData = $scope.lookUpKeyVal(JSON.parse(stringifiedResponse), {bodyPart : muscleGroup});
 				}
 			    
-			    $scope.applyResponseData($scope.responseData, exerciseAmount);
+			    $scope.applyResposnseData($scope.responseData, exerciseAmount);
 			});
 		};
 

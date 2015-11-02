@@ -1,4 +1,4 @@
-app.service("exerciseService", ["$http", "$q", function($http, $q) {
+servicesModule.service("exerciseService", ["$http", "$q", function($http, $q) {
 	return({
 		getExercises : getExercises
 	});
@@ -6,7 +6,7 @@ app.service("exerciseService", ["$http", "$q", function($http, $q) {
 	function getExercises() {
 		var request = $http({
 			method: "get",
-			url: "js/exercises.json",
+			url: "../json/exercises.json",
 			params: {
 				action: "get"
 			}

@@ -1,19 +1,28 @@
-	<h2>Create a random workout</h2>
+<!--	<h3>Create a random workout</h3>-->
 
 	<form class="form-horizontal">
 		<div class="form-group">
-			<label for="muscleGroupSelection" class="col-sm-3">muscle group:</label>
-			<div class="col-sm-4">
-				<select id="muscleGroupSelection" class="form-control" ng-model="muscleGroupSelection">
-					<option ng-repeat="exercise in exerciseChoices">{{exercise}}</option>
-				</select>
-				{{$scope.exerciseSelection}}
+			<label for="muscleGroupSelection" class="col-sm-2">Muscle group</label>
+			<div class="col-sm-1">
+				<label name="muscleGroupSelection" class="checkbox" ng-repeat="exercise in exerciseChoices track by $index">
+					<input type="checkbox" ng-checked="exercisesSelection"> {{ exercise | capitalize: true}}
+				</label>
+				
+				{{ exerciseSelection }}
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="exerciseAmountSelection" class="col-sm-3">number of exercises:</label>
-			<div class="col-sm-4">
-				<input type="number" id="exerciseAmountSelection" class="form-control" ng-model="exerciseAmountSelection"/>
+			<label for="exerciseAmountSelection" class="col-sm-3">Number of exercises</label>
+			<div class="col-sm-2">
+				<input type="number" name="exerciseAmountSelection" class="form-control" ng-model="exerciseAmountSelection"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="liftStyleSelection" class="col-sm-3">Type of sets</label>
+			<div class="col-sm-2">
+				<select name="liftStyleSelection" class="form-control" ng-model="liftStyleChoice">
+					<option ng-repeat="lift in liftStyleChoices">{{ lift }}</option>
+				</select>
 			</div>
 		</div>
 		<div class="form-group">
