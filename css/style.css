@@ -72,6 +72,10 @@ textarea {
 	text-align: center;
 }
 
+#landing-page-fake-row {
+	padding-top: 150px;
+}
+
 footer {
 	box-sizing: border-box;
 	bottom: 0;
@@ -86,4 +90,12 @@ footer {
 
 #github_img {
 	width: 16px;
+}
+
+@media(max-width: 991px) {
+
+	#landing-page-fake-row {
+		padding-top: 0px;
+	}
+
 }

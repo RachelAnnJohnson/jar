@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html ng-app="fitApp">
+<html ng-app="jarApp" lang="en">
 <head>
-	<title>JAR</title>
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-	<link href="css/style.css" rel="stylesheet"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JAR Training">
+    <meta name="author" content="Rachel Johnson">
+
+    <title>JAR</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
+
 </head>
 
 <body>
@@ -23,20 +33,14 @@
 	    	</div>
 	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	     		<ul class="nav navbar-nav navbar-right">
-		            <!-- <li><a href="">Store (coming soon)</a></li> -->
-			      	<!-- <li ><a href="#fakelink">Recipes (coming soon)</a></li> -->
 			        <li class="dropdown">
 				        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
 				        <ul class="dropdown-menu inverse-dropdown">
-							<li><a href="#/programs/beginner">Beginner</a></li>
-							<li><a href="#/programs/intermediate">Intermediate</a></li>
-							<li><a href="#/programs/advanced">Advanced</a></li>
-				            <li role="separator" class="divider"></li>
-					        <li><a href="#/programs/nutrition">Nutrition</a></li>
+							<li><a href="#/beginner">Beginner</a></li>
+							<li><a href="#/intermediate">Intermediate</a></li>
+							<li><a href="#/advanced">Advanced</a></li>
 			          	</ul>
 	        		</li>
-<!--	            	<li><a href="#/contact">Contact</a></li>-->
-<!--	            	<li><a href="#/about">About</a></li>-->
 	      		</ul>
 	    	</div>
 	  	</div>
@@ -73,21 +77,18 @@
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular/angular-route.min.js"></script>
-	
+    
     <script src="app.js"></script>
-	
-	<script src="js/services/appServices.js"></script>
-    <script src="js/services/getExercises.js"></script>
-    <script src="js/services/getSetsReps.js"></script>
-	
-	<script src="js/factories/appFactories.js"></script>
+    
+    <script src="js/services/appServices.js"></script>
+    
+    <script src="js/factories/appFactories.js"></script>
     <script src="js/factories/analyticsFactory.js"></script>
-	
-	<script src="js/controllers/appControllers.js"></script>
-    <script src="js/controllers/exerciseGeneratorController.js"></script>
-    <script src="js/controllers/contactController.js"></script>
-	
-	<script src="js/filters/appFilters.js"></script>
-	<script src="js/filters/capitalizeFilter.js"></script>
+    
+    <script src="js/controllers/appControllers.js"></script>
+    <script src="js/controllers/appController.js"></script>
+    
+    <script src="js/filters/appFilters.js"></script>
+    <script src="js/filters/capitalizeFilter.js"></script>
 </body>
 </html>
